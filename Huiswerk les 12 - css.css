@@ -1,0 +1,38 @@
+header {
+    background-color: lightblue;width: 100%;height: 50px;
+    }
+footer {
+    background-color: lightgreen;width: 100%;height: 25px;
+    }
+table {
+    border-collapse: collapse;
+}
+td {
+    width: 120px;
+    height: 120px;
+    border: 2px solid black;
+}
+#cel-1-1 { background-color: #ff9ff3; }
+#cel-1-2 { background-color: #feca57; }
+#cel-1-3 { background-color: #ffffdd; }
+#cel-1-4 { background-color: #ff6b6b; }
+#cel-2-1 { background-color: #48dbfb; }
+#cel-2-2 { background-color: #1dd1a1; }
+#cel-2-3 { background-color: #f368e0; }
+#cel-2-4 { background-color: #ff9f43; }
+#cel-3-1 { background-color: #ee5253; }
+#cel-3-2 { background-color: #0abde3; }
+#cel-3-3 { background-color: #10ac84; }
+#cel-3-4 { background-color: #5758bb; }
+#cel-4-1 { background-color: #9c88ff; }
+#cel-4-2 { background-color: #fbc531; }
+#cel-4-3 { background-color: #4cd137; }
+#cel-4-4 { background-color: #487eb0; }
+.woord-1 { background-color: #ccff66; }
+.woord-2 { background-color: #cc9966; }
+.woord-3 { background-color: #cc3366; }
+.woord-4 { background-color: #99ffcc; }
+.woord-5 { background-color: #9999cc; }
+.woord-6 { background-color: #9933cc; }
+.woord-7 { background-color: #00ffff; }
+.woord-8 { background-color: #0099ff; }
