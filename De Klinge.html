@@ -12,10 +12,9 @@
         }
         body{
             background-color: red;
+            width: 100%;
         }
-        [class*="col-"] {
-           width: 100%;
-        }
+        [class*="col-"] {width: 100%;}
         @media only screen and (min-width: 768px) {
             body{background-color: lightblue;} [class*="col-"] {
             float: left; padding: 15px;}
@@ -47,29 +46,18 @@
             background-size: cover;
             background-position: center;
         }
+        #een {
+            background-color: lightgreen;
+            float: left;
+        }
+        #twee {
+            background-color: lightyellow;
+            float: left;
+        }
         #twee img{
             float: right;
             padding: 20px;
             width: 200px;
-        }
-        #een {
-            background-color: lightgreen;
-        }
-        .menu ul {
-list-style-type: circle;
-margin: 0;
-padding: 0;
-}
-.menu li {
-padding: 8px;
-margin-bottom: 7px;
-}
-.menu li:hover {
-background-color: green;
-}
-
-        #twee {
-            background-color: lightyellow;
         }
         .tekst {
             width: 100%;
@@ -78,6 +66,7 @@ background-color: green;
         footer {
             width: 100%;
             background-color: lightsalmon;
+            clear: left;
         }
     </style>
 </head>
@@ -87,7 +76,7 @@ background-color: green;
     </header>
     <div id="content">
         <div class="row">
-            <div class="col-2 menu">
+            <div class="col-2">
                 <section id="een">
                     <ul>
                         <li>Kerk</li>
