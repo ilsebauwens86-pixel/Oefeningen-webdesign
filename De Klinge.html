@@ -12,10 +12,9 @@
         }
         body{
             background-color: red;
-            width: 100%;
         }
         [class*="col-"] {
-            width: 100%;
+           width: 100%;
         }
         @media only screen and (min-width: 768px) {
             body{background-color: lightblue;} [class*="col-"] {
@@ -56,9 +55,19 @@
         #een {
             background-color: lightgreen;
         }
-        ul{
-            list-style-type: circle;
-        }
+        .menu ul {
+list-style-type: circle;
+margin: 0;
+padding: 0;
+}
+.menu li {
+padding: 8px;
+margin-bottom: 7px;
+}
+.menu li:hover {
+background-color: green;
+}
+
         #twee {
             background-color: lightyellow;
         }
@@ -78,7 +87,7 @@
     </header>
     <div id="content">
         <div class="row">
-            <div class="col-2">
+            <div class="col-2 menu">
                 <section id="een">
                     <ul>
                         <li>Kerk</li>
