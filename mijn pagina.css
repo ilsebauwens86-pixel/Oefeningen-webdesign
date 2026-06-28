@@ -1,0 +1,17 @@
+p {
+    text-align: center;
+}
+input[type="text"], input[type="email"], textarea {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+footer {
+    background-color: lightblue;
+    height: 200px;
+    padding: 85px;
+}
