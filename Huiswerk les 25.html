@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js">
+    </script>
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js">
+    </script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">
+    <script type="text/javascript">
+        $(function() {
+        $("#accordion").accordion();
+        });
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+        $("#knop").click(function() {
+        var naam = $("#idTekstveld1").val();
+        var stad = $("#idTekstveld2").val();
+        var eigen = $("#idTekstveld3").val();
+        window.alert(
+        "Ik ben " + naam + "." +
+        " Mijn favoriete stad is " + stad +
+        " en zelf woon ik in " + eigen
+        );
+        });
+        });
+</script>
+</head>
+<body>
+    <div id="accordion">
+        <h2>Antwerpen</h2>
+        <div>
+            <p>Antwerpen is de grootste stad van Vlaanderen. Het is de hoofdstad van de provincie Antwerpen.</p>
+            <img src="Antwerpen.jpeg" alt="Antwerpen" width="150" height="150">
+        </div>
+        <h2>Brussel</h2>
+        <div>
+            <p>Brussel is de hoofdstad van België.</p>
+            <img src="Brussel.jpeg" alt="Brussel" width="150" height="150">
+        </div>
+        <h2>De Klinge</h2>
+        <div>
+            <p>De Klinge is een dorp in de Belgische provincie Oost-Vlaanderen. Het dorp grenst aan het Nederlandse Clinge in Zeeuws-Vlaanderen.</p>
+            <img src="De Klinge.jpeg" alt="De Klinge" width="150" height="150">
+        </div>
+        <h2>Jouw gegevens</h2>
+        <form>
+            Naam :
+            <input type="text" id="idTekstveld1"><br><br>
+            Favoriete stad :
+            <input type="text" id="idTekstveld2"><br><br>
+            Eigen dorp / stad:
+            <input type="text" id="idTekstveld3"><br><br>
+            <input id="knop" name="knop" type="button"
+            value="Klik op deze knop">
+        </form>
+    </div>
+<noscript>
+Om deze website optimaal te gebruiken is het noodzakelijk om JavaScript te activeren.
+</noscript>
+</body>
+</html>
